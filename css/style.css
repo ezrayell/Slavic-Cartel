@@ -3080,11 +3080,6 @@ body.menu-opened .mainmenu {
     top: 163px;
     width: 100%;
     left: 0;
-
-    position: relative;
-    left: auto;
-    top: auto;
-    margin: 50px 0 0 !important;
 }
 .coming .coming-img {
 	margin: 0 0 40px;
@@ -3163,18 +3158,15 @@ body.menu-opened .mainmenu {
 	font-size: 22px;
 	color: #fff;
 	position: relative;
-
-	padding-bottom: 80px;
 }
 .err404 .err404-img {
 
 }
 .err404 .err404-ttl {
 	position: absolute;
+	top: 68%;
 	left: 0;
 	right: 0;
-
-	top: 85%;
 }
 
 /* ERROR 404 */
@@ -3511,3 +3503,4 @@ body.menu-opened .mainmenu {
 	background-color: #6b909f;
 }
 /* THEME OPTIONS */
+
