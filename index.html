@@ -1,80 +1,175 @@
 <!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap 
-contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <title>Slavic Cartel</title>
+<html lang="en">
+<head>
 
-    <link rel="canonical" 
-href="https://getbootstrap.com/docs/5.1/examples/cover/">
-    <link 
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-rel="stylesheet" 
-integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
-crossorigin="anonymous">
-    
+<meta charset="UTF-8">
+<title>Slavic Cartel</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,300italic,300&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+<link rel="stylesheet" href="css/color/color_1.css" id="theme-color">
 
-    
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
-  </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
-    
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start mb-0">Slavic Cartel</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="features.html">Features</a>
-        <a class="nav-link" href="#">Contact</a>
-      </nav>
-    </div>
-  </header>
+<!-- [if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif] -->
 
-  <main class="px-3">
-    <h1>This site is currently under construction</h1>
-    <p class="lead">Toss your ideas to <br> <a href = "mailto: 
-hello@SlavicCartel.com" >hello@SlavicCartel.com</a></p>
-    <p class="lead">
-      <a href="https://esraelnatekin.com" 
-class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn 
-More</a>
-    </p>
-  </main>
+</head>
+<body>
 
-  <footer class="mt-auto text-white-50">
-    <p>Created With <a href="https://getbootstrap.com/" class="text-white" 
-target="_blank" rel="noopener noreferrer">Bootstrap</a>, by <a 
-href="https://twitter.com/esr_ael" class="text-white" target="_blank" 
-rel="noopener noreferrer">@esr.ael</a>.</p>
-  </footer>
+
+
+<div id="page" class="page" style="background: url(img/bg.jpg);">
+	<!-- Header -->
+	<header class="header">
+
+		<!-- Logotype -->
+		<p class="header-logo">
+			<a href="index.html">
+				<img src="img/logo.png" alt="">
+			</a>
+		</p>
+
+		<!-- Topmenu Toggle -->
+		<div class="mainmenu-btn" id="mainmenu-btn">
+			<div class="mainmenu-btn-line"></div>
+			<div class="mainmenu-btn-line"></div>
+			<div class="mainmenu-btn-line"></div>
+			<div class="mainmenu-btn-line"></div>
+		</div>
+
+		<!-- Search Form -->
+		<div class="header-search">
+			<a href="#" id="header-search-btn" class="header-search-btn"><i class="fa fa-search"></i></a>
+			<!-- <form action="#" id="header-search">
+				<input type="text" placeholder="Search..">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form> -->
+		</div>
+
+	</header> 
+	<!-- Header -->
+
+	<!-- Coming Soon -->
+	<div class="page-cont-wrap">
+		<h1 class="coming-ttl">Coming soon</h1>
+		<div class="cont page-cont coming">
+			<!-- <p class="coming-img">
+				<img src="img/bg.jpg" alt="">
+			</p> -->
+			<!-- Countdown -->
+			<ul data-countdown="2022/7/25 12:00:00" id="countdown" class="coming-timer">
+				<li>
+					<span class="coming-digits">60</span>
+					days
+				</li>
+				<li>
+					<span class="coming-digits">60</span>
+					hours
+				</li>
+				<li>
+					<span class="coming-digits">60</span>
+					minutes
+				</li>
+				<li>
+					<span class="coming-digits">60</span>
+					seconds
+				</li>
+			</ul>
+			<!-- Countdown -->
+		</div>
+	</div>
+	<span class="line-ct-wrap"><span class="line-ct"></span></span>
+
 </div>
 
+<!-- Navmenu -->
+<div class="mainmenu-bg" id="mainmenu-bg"></div>
+<nav class="mainmenu" id="mainmenu">
+	<ul>
+		<li>
+			<a href="index.html">Home</a>
+		</li>
+	</ul>
+</nav>
+<!-- Navmenu -->
 
-    
-  </body>
+
+<!-- Footer -->
+<footer class="footer-wrap">
+	<div class="cont footer">
+
+		<!-- Logotype -->
+		<p class="footer-logo">
+			<a href="index.html">
+				<img src="img/logo.png" alt="">
+			</a>
+		</p>
+
+		<!-- Subscribe -->
+		<form class="form-validate footer-subscribe" action="#">
+			<input data-required="text" data-required-email="email" type="text" placeholder="Email address" name="email2">
+			<button type="submit">Subscribe <i class="fa fa-angle-right"></i></button>
+		</form>
+
+		<!-- Social Links -->
+		<ul class="footer-social">
+			<li>
+				<a href="http://twitter.com/slaviccartel" rel="nofollow" target="_blank">
+					<i class="bi bi-twitter"></i>
+				</a>
+			</li>
+			<li>
+				<a href="http://t.me/slaviccartel" rel="nofollow" target="_blank">
+					<i class="bi bi-telegram"></i>
+				</a>
+			</li>
+			<li>
+				<a href="http://instagram.com/slavic_cartel" rel="nofollow" target="_blank">
+					<i class="bi bi-instagram"></i>
+				</a>
+			</li>
+		</ul>
+
+		<!-- Copyright -->
+		<p class="footer-copyright">2022 © Slavic Cartel All Rights Reserved</p>
+
+	</div>
+</footer>
+<!-- Footer -->
+
+
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/fancybox/fancybox.js"></script>
+<script src="js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/jquery.fractionslider.js"></script>
+<script src="js/main.js"></script>
+
+<script src="js/jquery.countdown.min.js"></script>
+<script>
+"use strict";
+if ($('#countdown').length > 0) {			
+	$('#countdown').each(function() {
+		$(this).countdown($(this).data('countdown'), function(event) {
+			$(this).html(event.strftime(
+				'<li><p class="coming-digits">%-D</p>day%!d</li><li><p class="coming-digits">%H</p>hours</li><li><p class="coming-digits">%M</p>minutes</li><li><p class="coming-digits">%S</p>seconds</li>'
+			));
+		});
+	});
+}
+</script>
+
+
+</body>
 </html>
